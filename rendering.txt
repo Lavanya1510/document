@@ -1,0 +1,27 @@
+Rendering: 
+      Rendering is processing a code that we have written and showing the result of it.
+
+Server side rendering:
+      You extracted the HTML file/String from your Javascript/React code on the server and then sent 
+a plain and simple html file/string to the client/browser that it’ll immediately show to the user without 
+any extra step.
+
+Client side rendering:
+      You didn’t extracted the html string from javascript code on the server and sent the javascript file 
+to the client/browser. Now, Browser can not show anything to the user immediately, Because now it’s the browser’s 
+job to execute the javascript code, get the html string and then show it to the browser. This step can take fairly 
+long time if your javascript file is big and you have a lot of components.
+
+Server-side rendering:It is an ideal solution if your app is intended to work with a great deal of data. 
+Examples are calendars, mail boxes, really any content platforms. 
+Moreover, the realization of server rendering is in no way worse on the client side.
+Almost any framework used for the client side (Java, Python) can be implemented under server-side rendering.
+Client-side rendering (CSR) is in its turn more suitable when it comes to dynamic content. 
+Also, it’s more beneficial considering browser performance.
+
+With a client-side rendering solution, you redirect the request to a single HTML file and the server will deliver it without any content (or with a loading screen) until you fetch all the JavaScript and let the browser compile everything before rendering the content.
+With old server-side rendering solutions, you built a web page—with PHP for example—the server compiled everything, included the data, and delivered a fully populated HTML page to the client.
+It was fast and effective.
+
+But… every time you navigated to another route, the server had to do the work all over again: Get the PHP file, compile it, and deliver the HTML, with all the CSS and JS delaying the page load to a few hundred ms or even whole seconds.
+

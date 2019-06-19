@@ -1,0 +1,4 @@
+User Interface:
+    User interface makes it easy for users to tell the computer what they want to do, for the computer
+ to request information from the users, and for the computer to present understandable information.
+ Clear communication between the user and the computer is the working premise of good UI design.

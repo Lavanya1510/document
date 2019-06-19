@@ -1,0 +1,6 @@
+Server:
+   a server serves information to computers that connect to it. These computers, called clients, can connect to a 
+server through either a local area network (LAN) or a wide area network (WAN), such as the Internet.
+There are many different types of servers, for example: File server: a computer and storage device 
+dedicated to storing files. ... Print server: a computer that manages one or more printers, and a network 
+server is a computer that manages network traffic. Database server: a computer system that processes database queries.
